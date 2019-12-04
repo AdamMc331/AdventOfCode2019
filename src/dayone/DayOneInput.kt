@@ -1,6 +1,6 @@
 package dayone
 
-val DayOneInput: String = """
+val DAY_ONE_INPUT: String = """
 72713
 93795
 64596

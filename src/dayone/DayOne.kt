@@ -6,7 +6,7 @@ fun main() {
 }
 
 private fun partOne() {
-    val totalFuel = DayOneInput
+    val totalFuel = DAY_ONE_INPUT
         .lines()
         .map(String::toLong)
         .map(::calculateFuel)
@@ -16,7 +16,7 @@ private fun partOne() {
 }
 
 private fun partTwo() {
-    val totalFuel = DayOneInput
+    val totalFuel = DAY_ONE_INPUT
         .lines()
         .map(String::toLong)
         .map(::calculateFuelRecursively)
